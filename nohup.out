@@ -1,0 +1,107 @@
+服务器已成功开启...,地址为：http://127.0.0.1:3000
+数据库连接成功。。。
+交易日历数据请求成功。。。
+服务器已成功开启...,地址为：http://127.0.0.1:3000
+数据库连接成功。。。
+交易日历数据请求成功。。。
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/root/project/server/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/root/project/server/server.js:74:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1347:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+服务器已成功开启...,地址为：http://127.0.0.1:3000
+数据库连接成功。。。
+交易日历数据请求成功。。。
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+有人请求3000服务器了
+服务器已成功开启...,地址为：http://127.0.0.1:3000
+数据库连接成功。。。
+交易日历数据请求成功。。。
