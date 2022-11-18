@@ -1,0 +1,36 @@
+const axios = require('axios')
+// 遍历交易日
+function show(data) {
+    const openDate = []
+    for (let i in data) {
+        if (data[i][2]) openDate.push(data[i][1]);
+    }
+    return openDate
+}
+
+// 获取getopenDate，返回promise对象
+async function getopenDate() {
+
+    try {       
+        const Response = await axios.post('http://api.tushare.pro', {
+            "api_name": "trade_cal",
+            "token": "135bd10727f55b4e677c1558ed22e63f617cdf1f660d9a82b6cf1eba",
+            "params": { "exchange": "", "start_date": "20220705", "end_date": "20221010" },
+            "fields": ""
+        })
+        console.log("交易日历数据请求成功。。。");
+
+        const openDate = await show(Response.data.data.items);
+        return Promise.resolve(openDate)
+
+    } catch (error) {
+        console.log("交易日历数据请求错误。。。"+error);
+    }
+}
+
+
+
+module.exports = getopenDate();
+
+// console.log(arguments)
+
